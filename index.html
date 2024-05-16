@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brungle Point System Documentation</title>
+  <style>
+    /* CSS Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      display: flex;
+    }
+
+    .sidebar {
+      background-color: #333;
+      color: #fff;
+      width: 250px;
+      height: 100vh;
+      padding: 20px;
+      overflow-y: auto;
+      transition: margin-left 0.3s ease;
+    }
+
+    .content {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .sidebar h2 {
+      margin-bottom: 20px;
+      border-bottom: 1px solid #fff;
+      padding-bottom: 10px;
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .sidebar li {
+      margin-bottom: 10px;
+    }
+
+    .sidebar a {
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .sidebar a:hover {
+      color: #ffcc00;
+    }
+
+    header, footer {
+      background-color: #333;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    main {
+      padding: 2rem;
+    }
+
+    h1, h2, h3 {
+      color: #333;
+    }
+
+    h2 {
+      margin-top: 2rem;
+    }
+
+    footer {
+      text-align: center;
+    }
+
+    /* Navigation Menu */
+    .nav-menu {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: #333;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .nav-menu h1 {
+      margin: 0;
+      padding: 0;
+      font-size: 24px;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .nav-menu ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+    }
+
+    .nav-menu li {
+      margin-left: 20px;
+    }
+
+    .nav-menu a {
+      text-decoration: none;
+      color: #fff;
+      transition: color 0.3s ease;
+    }
+
+    .nav-menu a:hover {
+      color: #ffcc00;
+    }
+
+    @media (max-width: 768px) {
+      .sidebar {
+        width: 200px;
+      }
+
+      .content {
+        margin-left: 200px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav-menu">
+    <h1>Brungle Point System Documentation</h1>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#background">Background</a></li>
+      <li><a href="#color">Color</a></li>
+      <li><a href="#timetable">Timetable</a></li>
+      <li><a href="#preferences">Preferences</a></li>
+    </ul>
+  </div>
+  <div class="sidebar">
+    <h2 style="color: white;">Getting Started ...</h2>
+    <ul>
+      <li><a href="#about">About Brungle Point System</a></li>
+      <li><a href="#background">Changing Background</a></li>
+      <li><a href="#color">Adding Background Color</a></li>
+      <li><a href="#timetable">Changing Timetable</a></li>
+      <li><a href="#preferences">Saving App Preferences</a></li>
+    </ul>
+  </div>
+  <div class="content">
+    <header>
+      <h1 style="color: white">Brungle Point System Documentation</h1>
+      <h3 style="color: white"> Created by AI in 30 seconds </h3>
+    </header>
+    <main>
+      <section id="about">
+        <h2>About Brungle Point System</h2>
+        <p><em>Brungle Point System</em> is a revolutionary platform that transforms internet browsing into a rewarding experience. By utilizing cutting-edge technology, users can earn points for their online activities and redeem them for a variety of valuable rewards, effectively turning their browsing time into a valuable currency.</p>
+        <p>The Brungle Point System, or BPS, was built upon the idea of incentivizing internet usage while providing users with tangible benefits for their time and attention. Unlike traditional browsing experiences, where users consume content passively, BPS actively engages users in a gamified environment, encouraging exploration, discovery, and interaction.</p>
+        <p>With BPS, users can accumulate points through various actions such as searching the internet, participating in surveys, and engaging with sponsored content. These points can then be redeemed for a range of rewards including gift cards, discounts, and exclusive offers from partnering brands and retailers.</p>
+        <p>One of the key features of BPS is its seamless integration with existing browsing habits. Users can install the BPS extension or app on their preferred browser or device, allowing them to earn points effortlessly as they browse the web. Additionally, BPS offers a personalized experience, tailoring rewards and recommendations based on each user's interests and preferences.</p>
+      </section>
+      <!-- Additional sections with expanded content -->
+    </main>
+    <footer>
+      <p>&copy; 2024 Brungle Point System. All rights reserved.</p>
+    </footer>
+  </div>
+  <script>
+    // Cool Features and JavaScript Code
+    const sidebar = document.querySelector('.sidebar');
+
+    window.addEventListener('scroll', () => {
+      sidebar.style.marginTop = `${window.scrollY}px`;
+    });
+  </script>
+</body>
+</html>
